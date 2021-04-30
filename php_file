@@ -1,0 +1,67 @@
+<?php
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+$grade1 = 70.5;
+$grade2 = 45.25;
+$grade3 = 35.5;
+$number = 34.25;
+
+$name = 'jordy';
+echo "************************************************************\n";
+echo "Hi Dear teacher this program calulates a student average \n";
+echo "************************************************************\n";
+echo  "The student's name is $name\n";
+echo  " These are the Grades\n";
+echo  "Grade 1 : $grade1 \n";
+echo  "Grade 1 : $grade2 \n";
+echo  "Grade 1 : $grade3 \n";
+
+echo "************************************************************\n";
+
+$average = ($grade1+$grade2+$grade3)/3;
+if ($average>50) {
+   echo "The student in this case $name , passed \n with an average of $average";
+}elseif ($average<50) {
+    echo "$name , failed Unfortunately \n";
+}else
+    echo "Invalid Grades"
+;<?php
+/******************************************************************************
+
+Welcome to GDB Online.
+GDB online is an online compiler and debugger tool for C, C++, Python, Java, PHP, Ruby, Perl,
+C#, VB, Swift, Pascal, Fortran, Haskell, Objective-C, Assembly, HTML, CSS, JS, SQLite, Prolog.
+Code, Compile, Run and Debug online from anywhere in world.
+
+*******************************************************************************/
+$grade1 = 70.5;
+$grade2 = 45.25;
+$grade3 = 35.5;
+$number = 34.25;
+
+$name = 'jordy';
+echo "************************************************************\n";
+echo "Hi Dear teacher this program calulates a student average \n";
+echo "************************************************************\n";
+echo  "The student's name is $name\n";
+echo  " These are the Grades\n";
+echo  "Grade 1 : $grade1 \n";
+echo  "Grade 1 : $grade2 \n";
+echo  "Grade 1 : $grade3 \n";
+
+echo "************************************************************\n";
+
+$average = ($grade1+$grade2+$grade3)/3;
+if ($average>50) {
+   echo "The student in this case $name , passed \n with an average of $average";
+}elseif ($average<50) {
+    echo "$name , failed Unfortunately \n";
+}else
+    echo "Invalid Grades"
+;
