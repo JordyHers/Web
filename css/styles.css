@@ -1,23 +1,50 @@
 body {
   background-color: #4ca1a3;
   margin-left: 8.625rem;
+  text-align: center;
 
 }
 
 .top-container{
-  height: 100px;
+  height: 20px;
   padding: 0px 100px 20px 100px;
 
 }
+
 .top_image{
 position: absolute;
-margin-left: 50rem;
+margin-left: 17rem;
 height: 20rem;
 width: 20rem;
 
 }
+ol{
+  display: inline-block;
+	text-align: center;
+}
 
 
+li
+{
+
+padding-right: 2em;
+margin: 0.8em 0;
+}
+
+ul{
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  width: 10em;
+}
+
+.table{
+  margin-left: auto;
+  margin-right: auto;
+}
 hr {
   border-color: #511281;
   border-style: none;
