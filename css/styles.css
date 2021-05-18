@@ -1,6 +1,17 @@
 body {
   background-color: #4ca1a3;
   margin-left: 8.625rem;;
+}
+
+.top-container{
+  height: 100px;
+
+}
+.top_image{
+position: absolute;
+margin-left: 50rem;
+height: 20rem;
+width: 20rem;
 
 }
 
